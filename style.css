@@ -1,0 +1,40 @@
+.header {
+    color: rgba(82, 13, 241, 0.808);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+body {
+  background-image: url(purple\ transparent\ flowers.jpg);
+  background-repeat: repeat;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;  
+    align-items: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+p {
+    font-style: italic;
+    font-size: small;
+}
+
+@media screen {
+    .nav {
+        margin: 0;
+        padding: 0;
+    }
+}
